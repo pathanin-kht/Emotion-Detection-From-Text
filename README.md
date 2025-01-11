@@ -33,7 +33,7 @@ Here is an example of how the system works:
    ```bash
    python app.py
 
-9. Open your browser and navigate to http://127.0.0.1:5000.
+9. Open your browser and navigate to your localhost.
 
 ## License
 This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
