@@ -35,3 +35,10 @@ Here is an example of how the system works:
 
 9. Open your browser and navigate to http://127.0.0.1:5000.
 
+## License
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+## Contact
+For feedback or inquiries, feel free to reach out via [pathanin.kht@gmail.com](pathanin.kht@gmail.com).
+
+
