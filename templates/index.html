@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Prediction</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Emotion Prediction</h1>
+        <div class="language-notice">
+            Note: This tool only supports English text input
+        </div>
+        <form id="emotion-form">
+            <input type="text" id="text" name="text" placeholder="Enter your text here" required>
+            <button type="submit">Predict</button>
+        </form>
+        <div class="result" id="result"></div>
+        <div class="error" id="error"></div>
+        <div class="credit">
+            Developed by: Pathanin Khuhathong
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
