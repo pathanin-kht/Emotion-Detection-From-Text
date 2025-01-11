@@ -11,8 +11,10 @@ The dataset used for training is from [Emotion Detection from Text](https://www.
 
 ## Example
 Here is an example of how the system works:
-1. The user enters a text such as "I am feeling so happy today!"
+1. The user enters a text such as "How cute you are"
 2. The model predicts the emotion as **Positive**.
+   
+![Testcase](https://github.com/pathanin-kht/Emotion-Detection-From-Text/blob/c9c8f46de01477fd9b82cc3c2aa8ae882d665d6a/TestCase.png)
 
 ## Installation
 1. Clone or download this repository.
