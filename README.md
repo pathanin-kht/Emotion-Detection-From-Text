@@ -1,5 +1,5 @@
 # Emotion-Detection-From-Text
-
+## Project Status: No Longer Maintained
 ## Overview
 This project implements an emotion prediction system using natural language processing (NLP) to predict emotions from text input. The model is based on a logistic regression classifier and uses a TF-IDF vectorizer for text feature extraction. The system processes English text input and classifies it into one of three main emotion categories: Positive, Negative, and Neutral. 
 
