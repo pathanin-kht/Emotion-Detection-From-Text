@@ -4,7 +4,6 @@ import os
 
 app = Flask(__name__)
 
-# Load the saved model, vectorizer, and label encoder
 model_path = 'best_emotion_model.pkl'
 vectorizer_path = 'tfidf_vectorizer.pkl'
 label_encoder_path = 'label_encoder.pkl'
@@ -32,10 +31,9 @@ def predict():
         if not text:
             return jsonify({'error': 'No text provided or text is empty.'}), 400
 
-        # Preprocess and predict
         text_tfidf = vectorizer.transform([text])
         predicted_label = model.predict(text_tfidf)
-        emotion = label_encoder.inverse_transform(predicted_label)[0]  # Decode the predicted label
+        emotion = label_encoder.inverse_transform(predicted_label)[0]  
 
         return jsonify({'emotion': emotion})
 
