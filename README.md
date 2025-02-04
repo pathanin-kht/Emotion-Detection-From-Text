@@ -18,12 +18,14 @@ Here is an example of how the system works:
 
 ## Installation
 1. Clone or download this repository.
-2. Install the required dependencies:
+   ```bash
+   git clone https://github.com/pathanin-kht/EmotionDetectionFromText.git
+3. Install the required dependencies.
    
    ```bash
    pip install -r requirements.txt
-4. Download the dataset and place it in the same directory as the script, or update the dataset path in the code.
-5. Run the model:
+4. Download [Emotion Detection from Text](https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text/data) and place it in the same directory as the script, or update the dataset path in the code.
+5. Run the model.
    
    ```bash
    python emotion_train_model.py
